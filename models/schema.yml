@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: resumen_por_clientes
+    description: ""
+    columns:
+      - name: nit
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
