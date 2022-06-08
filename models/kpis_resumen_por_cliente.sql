@@ -98,4 +98,4 @@ FROM base_clientes cl
     LEFT JOIN notificaciones n ON n.nit = cl.nit::text
     LEFT JOIN ofertas o ON o.nit::text = cl.nit::text
     LEFT JOIN adjudicacion a ON a.nit::text = cl.nit::text
-ORDER BY cl.nit;
+ORDER BY cl.nit
